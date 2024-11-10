@@ -21,7 +21,9 @@
     font-weight: 800;
 }
 
-
+.text-color{
+    color: #5A5A5D;
+}
 
 
 
@@ -105,15 +107,23 @@ nav li a{
 }
 
 .explore-section{
-    border: 3px solid red;
-    width: 400px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    /* border: 3px solid red; */
+    background-color: rgba(255, 255, 255, 0.409);
+    border-radius: 10px;
+    width: 800px;
+    height: 90px;
+    margin-top: 2rem;
+    margin-left: 13rem;
 }
 
 
+.explore-section input, select{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
 
 
 /* ----------------------------- */
@@ -123,7 +133,7 @@ nav li a{
 .tours{
     margin: auto 20px;
     display: flex;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 .tours-contain{
@@ -149,7 +159,7 @@ nav li a{
     /* destination style  */
 
 .destination{
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
     width: 95%;
     margin-left: 2rem;
     text-align: center;
@@ -170,7 +180,7 @@ nav li a{
 /* collection style */
 
 .collection{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 3rem;
 }
 
@@ -190,7 +200,7 @@ nav li a{
     /* why style  */
 
 .why{
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
     width: 95%;
     margin-left: 2rem;
     text-align: center;
@@ -210,7 +220,7 @@ nav li a{
     /* card style */
 
 .card{
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     width: 95%;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -250,7 +260,7 @@ nav li a{
     /* deals style  */
 
 .deals{
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
     width: 95%;
     margin-left: 2rem;
     text-align: center;
@@ -277,7 +287,7 @@ nav li a{
 }
 
 .satorini-img{
-    border: 2px solid limegreen;
+    /* border: 2px solid limegreen; */
     background-image: url('Images/Group 12.png');
     height: 500px;
     background-repeat: no-repeat;
@@ -338,7 +348,7 @@ nav li a{
 /* see style */
 
 .see{
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,7 +365,7 @@ nav li a{
     margin: auto 20px;
     display: flex;
     margin-top: 3rem;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 .simple-contain{
@@ -386,12 +396,12 @@ nav li a{
 .newsletter{
     display: flex;
     margin-top: 3rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .newsletter-contain{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 8px;
     width: 420px;
     height: 350px;
@@ -515,14 +525,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 /* Responsive style */
 
     /* Mobile style */
@@ -549,11 +551,41 @@ footer{
     /* explore style  */
 
     .explore{
+        width: 95%;
+        height: 50rem;
+        background-image: url("Images/Group 13.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .explore-img img{
         display: none;
     }
 
+    .explore img{
+        width: 95%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 1.6rem;
+    }
 
+    .explore-section{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        margin-left: 0.5rem;
+    }
 
+    .overlay{
+        width: 100%;
+        margin-left: .2rem;
+    }
+
+    .explore-des{
+        margin-bottom: 6rem;
+    }
+/* ---------------------------- */
 
     /* tours style  */
 
@@ -692,9 +724,7 @@ footer{
     left: 10rem;
 }
 
-
 /* ------------------------------ */
-
 
 /* footer style */
 
