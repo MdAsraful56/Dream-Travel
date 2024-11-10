@@ -401,7 +401,7 @@ nav li a{
 
 .newsletter-contain{
     width: 50%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     border-radius: 8px;
     width: 420px;
     height: 350px;
